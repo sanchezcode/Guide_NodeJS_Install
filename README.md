@@ -2,7 +2,7 @@
 
 1 - Vamos a la página oficial de de nodeJS https://nodejs.org/es/
 
-2 - Descargamos la version LTS (Long Time Support)
+2 - Descargamos la version LTS (Long Time Support) osea mas tiempo de soporte y menos errores que la otra
 
 ![image](https://user-images.githubusercontent.com/54609399/137843471-ce56f2ab-f8f7-4323-be81-f88a436b561d.png)
 
@@ -18,15 +18,22 @@
 
 ![image](https://user-images.githubusercontent.com/54609399/137843870-1799dac2-76c2-49b3-9f30-8e9035109f4a.png)
 
-6 - Damos siguiente
+6 - Damos siguiente sin cambiar la ubicacion hay que dejarlo en la raiz osea el C
 
 ![image](https://user-images.githubusercontent.com/54609399/137843895-e463ac36-d8dc-4422-8285-3d66474b46e0.png)
 
+Tambien damos siguiente sin modificar nada
+
 ![image](https://user-images.githubusercontent.com/54609399/137843936-5e8ab91d-f264-428b-a080-fc18060f5864.png)
+
+Tambien damos siguiente sin modificar nada
 
 ![image](https://user-images.githubusercontent.com/54609399/137843982-346d24f2-6873-488c-bf99-387be19e763d.png)
 
+damos click en install para iniciar el proceso
+
 ![image](https://user-images.githubusercontent.com/54609399/137844052-63301c4c-f93d-4bcd-ab8e-92f07b18ea05.png)
+
 
 7 - se inicia el proceso y esperamos
 
