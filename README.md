@@ -147,6 +147,14 @@ sudo n latest
 ```
 ![image](https://user-images.githubusercontent.com/54609399/164275069-44b1349f-3ee8-458b-9b5c-81be3a88881c.png)
 
+o instalar la version estable LTS(recomendado)
+
+```
+sudo n stable
+```
+
+![image](https://user-images.githubusercontent.com/54609399/164295082-20626933-d880-497f-b129-8af4db5ebf0e.png)
+
 
 4 - Ahora ejecutamos el comando para verificar las versiones
 
