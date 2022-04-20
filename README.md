@@ -1,4 +1,4 @@
-# Guide_NodeJS
+# Guide_NodeJS_Install
 
 NodeJS es instalar JavaSctipt en el sistema operativo
 el front utiliza javascript para los navegadores y eventos en las paginas ahora vamos a usar JavaScript para el backend
@@ -114,6 +114,49 @@ esto ejecutara el archivo y lo que tenga escrito en el osea ejecuta el javascrip
 ![image](https://user-images.githubusercontent.com/54609399/138187324-09377d69-77f6-40df-ac53-926b7ed81c64.png)
 
 Listo ya tenemos NodeJS listo en nuestro PC
+
+
+*** LINUX INSTALL ****
+
+1 - Escribimos en la consola:
+```
+sudo apt install nodejs
+```
+```
+sudo apt install npm
+```
+Para probar que quedo instalado ejecutamos el siguiente comando.
+
+![image](https://user-images.githubusercontent.com/54609399/164270310-df72008d-8f1d-4ec1-8108-380f3eac55b2.png)
+
+2 - Si nos fijamos en la pagina oficial de NodeJS nos encontramos con una version mas elevada.
+
+![image](https://user-images.githubusercontent.com/54609399/164273932-8095104d-1457-450a-856f-05c8c98d5d80.png)
+
+para actualizar nuestra versión instalada realizaremos los siguientes pasos.
+
+3 - 
+```
+sudo npm cache clean -f
+```
+```
+sudo npm install -g n
+```
+```
+sudo n latest
+```
+![image](https://user-images.githubusercontent.com/54609399/164275069-44b1349f-3ee8-458b-9b5c-81be3a88881c.png)
+
+
+4 - Ahora ejecutamos el comando para verificar las versiones
+
+```
+sudo node -v
+```
+```
+sudo npm -v
+```
+![image](https://user-images.githubusercontent.com/54609399/164278779-4c8e7f1a-34bd-48b8-9610-180ddd5001b8.png)
 
 
 
