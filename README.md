@@ -167,4 +167,19 @@ sudo npm -v
 ![image](https://user-images.githubusercontent.com/54609399/164278779-4c8e7f1a-34bd-48b8-9610-180ddd5001b8.png)
 
 
+*** ACTUALIZAR ***
+
+1 - Si queremos actualizar npm en Linux solo debemos usar los siguientes comandos:
+
+```
+sudo npm -v
+```
+```
+sudo npm install npm@latest -g
+```
+```
+sudo npm -v
+```
+
+![image](https://user-images.githubusercontent.com/54609399/164297662-09604b5d-b5fc-46e0-8da4-087d0afb9957.png)
 
