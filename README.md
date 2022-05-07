@@ -199,7 +199,7 @@ sudo node -v
 sudo npm -v
 ```
 
-![image](https://user-images.githubusercontent.com/54609399/164275069-44b1349f-3ee8-458b-9b5c-81be3a88881c.png)
+![image](https://user-images.githubusercontent.com/54609399/167241652-54e6501f-055e-4e54-a683-23f8bd7c52f4.png)
 
 
 ![image](https://user-images.githubusercontent.com/54609399/167241425-12d59c21-2ee6-47eb-9165-6044786d8272.png)
