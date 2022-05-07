@@ -209,59 +209,7 @@ node -v
 ```
 npm -v
 ```
+![image](https://user-images.githubusercontent.com/54609399/167242076-6052a31f-da68-4f41-a669-47cdc941937b.png)
 
-![image](https://user-images.githubusercontent.com/54609399/167241425-12d59c21-2ee6-47eb-9165-6044786d8272.png)
-
-
-
-
-
-
-```
-sudo n latest
-```
-
-
-
-
-
-o instalar la version estable LTS(recomendado)
-
-```
-sudo n stable
-```
-
-![image](https://user-images.githubusercontent.com/54609399/164295082-20626933-d880-497f-b129-8af4db5ebf0e.png)
-
-
-4 - Ahora ejecutamos el comando para verificar las versiones
-
-```
-sudo node -v
-```
-```
-sudo npm -v
-```
-
-![image](https://user-images.githubusercontent.com/54609399/167241652-54e6501f-055e-4e54-a683-23f8bd7c52f4.png)
-
-
-*** ACTUALIZAR ***
-
-1 - Si queremos actualizar npm en Linux solo debemos usar los siguientes comandos:
-
-```
-sudo npm -v
-```
-```
-sudo npm install npm@latest -g
-```
-
-![image](https://user-images.githubusercontent.com/54609399/167241595-97d843c6-3234-4a4d-bd53-5969a21563a8.png)
-
-```
-sudo npm -v
-```
-
-![image](https://user-images.githubusercontent.com/54609399/164297662-09604b5d-b5fc-46e0-8da4-087d0afb9957.png)
+Podemos ver que
 
