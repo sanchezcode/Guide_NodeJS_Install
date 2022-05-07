@@ -126,7 +126,7 @@ Listo ya tenemos NodeJS listo en nuestro PC
 
 ________________________________________
 
-**** INSTALACIÓN EN WINDOWS (10 Y 11) ****
+**** INSTALACION EN LINUX (UBUNTU 20.04.4 LTS Y 22.04 LTS) ****
 ________________________________________
 
 1 - Escribimos en la consola:
