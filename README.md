@@ -182,6 +182,15 @@ Confirmamos la ultima versión estable de NodeJs
 sudo n stable
 ```
 
+6 - Instalamos la ultima versión estable de npm
+
+```
+sudo npm install npm@latest -g
+```
+
+![image](https://user-images.githubusercontent.com/54609399/167241595-97d843c6-3234-4a4d-bd53-5969a21563a8.png)
+
+
 ![image](https://user-images.githubusercontent.com/54609399/167241425-12d59c21-2ee6-47eb-9165-6044786d8272.png)
 
 6 - Volvemos a verificar las versiones con los siguientes comandos:
