@@ -1,5 +1,13 @@
 # Guide_NodeJS_Install
 
+- INSTALACIÓN EN WINDOWS (10 Y 11)
+- INSTALACION EN LINUX (UBUNTU 20.04.4 LTS Y 22.04 LTS)
+
+________________________________________
+
+**** INSTALACIÓN EN WINDOWS (10 Y 11) ****
+________________________________________
+
 NodeJS es instalar JavaSctipt en el sistema operativo
 el front utiliza javascript para los navegadores y eventos en las paginas ahora vamos a usar JavaScript para el backend
 por eso NodeJS se instala para permitirnos esto.
@@ -116,20 +124,37 @@ esto ejecutara el archivo y lo que tenga escrito en el osea ejecuta el javascrip
 Listo ya tenemos NodeJS listo en nuestro PC
 
 
-*** LINUX INSTALL ****
+________________________________________
+
+**** INSTALACIÓN EN WINDOWS (10 Y 11) ****
+________________________________________
 
 1 - Escribimos en la consola:
-```
-sudo apt install nodejs
-```
-```
-sudo apt install npm
-```
-Para probar que quedo instalado ejecutamos el siguiente comando.
 
-![image](https://user-images.githubusercontent.com/54609399/164270310-df72008d-8f1d-4ec1-8108-380f3eac55b2.png)
+```
+sudo apt-get install nodejs
+```
 
-2 - Si nos fijamos en la pagina oficial de NodeJS nos encontramos con una version mas elevada.
+![image](https://user-images.githubusercontent.com/54609399/167240873-feac90c3-c3dd-40eb-9a3b-c816431d59ba.png)
+
+Nos pedira confirmación con "y" si el sistema operativo esta en ingles o "s" si esta en español.
+
+![image](https://user-images.githubusercontent.com/54609399/167240938-97040ad2-9d87-4064-9991-92e8b1e157b5.png)
+
+
+2 - Luego instalamos el npm, este comando también nos pedira confirmación
+
+```
+sudo apt-get install npm
+```
+
+![image](https://user-images.githubusercontent.com/54609399/167241044-cd04f763-d088-4f2f-98b9-1d04ad4430c1.png)
+
+3 - Para probar que ambos quedaron instalados ejecutamos los siguientes comandos.
+
+![image](https://user-images.githubusercontent.com/54609399/167241127-728ab3cf-2c0d-4dd4-a23c-e58cb9e94895.png)
+
+4 - Si nos fijamos en la pagina oficial de NodeJS nos encontramos con una version estable superior.
 
 ![image](https://user-images.githubusercontent.com/54609399/164273932-8095104d-1457-450a-856f-05c8c98d5d80.png)
 
