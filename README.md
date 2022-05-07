@@ -224,3 +224,8 @@ npm -v
 Podemos ver que si ejecutamos los comandos sin el *sudo* nos muestra un node versión 10 el cual quedo como base de algunos paquetes en ubuntu y el npm no nos muestra resultaso, igualmente las ultimas versiones que salen con el comando *sudo node -v* y *sudo npm -v* son las que el sistema utilizara para el desarrollo.
 
 ![image](https://user-images.githubusercontent.com/54609399/167242167-c721b159-1d83-4c9e-b0b9-bad13392ff52.png)
+
+Para confirmar esto podemos pobrar los comandos con *sudo* y sin *sudo* en la consola de Visual Studio Code y nos arrojara las versiones reales, las cuales deben ser las mismas
+
+![image](https://user-images.githubusercontent.com/54609399/167242554-957d6e9f-d5e1-4f91-a226-993f32337f50.png)
+
