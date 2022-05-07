@@ -229,3 +229,28 @@ Para confirmar esto podemos pobrar los comandos con *sudo* y sin *sudo* en la co
 
 ![image](https://user-images.githubusercontent.com/54609399/167242554-957d6e9f-d5e1-4f91-a226-993f32337f50.png)
 
+Para poder ver esto mismo en la terminala del sistema es facil, ejecutamos los siguientes comandos:
+
+```
+sudo apt-get update
+```
+```
+sudo apt-get upgrade
+```
+
+Reiniciamos el sistema y luego probamos los comandos y ya deberia estar todo a la par:
+
+```
+node -v
+```
+```
+npm -v
+```
+```
+sudo node -v
+```
+```
+sudo npm -v
+```
+![image](https://user-images.githubusercontent.com/54609399/167242932-456537dc-9043-48a9-ae4d-a4e4ee41d6ce.png)
+
