@@ -199,8 +199,16 @@ sudo node -v
 sudo npm -v
 ```
 
-![image](https://user-images.githubusercontent.com/54609399/167241652-54e6501f-055e-4e54-a683-23f8bd7c52f4.png)
+![image](https://user-images.githubusercontent.com/54609399/167242014-f99e1cc1-3ae1-44b9-99a6-11b9494fb200.png)
 
+NOTA: Si ejecutamos los comandos
+
+```
+node -v
+```
+```
+npm -v
+```
 
 ![image](https://user-images.githubusercontent.com/54609399/167241425-12d59c21-2ee6-47eb-9165-6044786d8272.png)
 
