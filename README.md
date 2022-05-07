@@ -182,6 +182,16 @@ Confirmamos la ultima versión estable de NodeJs
 sudo n stable
 ```
 
+EXTRA: Si no requieren la version estable LTS (recomendada), si no que por alguna solicitud necesitan la ultima version de node:
+
+![image](https://user-images.githubusercontent.com/54609399/167242248-b2994b17-d5d0-4402-af2d-5311801f82b6.png)
+
+No ejecutamos el comando *sudo n stable* sino el comando *sudo n latest*
+
+```
+sudo n latets
+```
+
 6 - Instalamos la ultima versión estable de npm
 
 ```
@@ -199,7 +209,7 @@ sudo node -v
 sudo npm -v
 ```
 
-![image](https://user-images.githubusercontent.com/54609399/167242014-f99e1cc1-3ae1-44b9-99a6-11b9494fb200.png)
+![image](https://user-images.githubusercontent.com/54609399/167242167-c721b159-1d83-4c9e-b0b9-bad13392ff52.png)
 
 NOTA: Si ejecutamos los comandos
 
@@ -211,5 +221,4 @@ npm -v
 ```
 ![image](https://user-images.githubusercontent.com/54609399/167242076-6052a31f-da68-4f41-a669-47cdc941937b.png)
 
-Podemos ver que
-
+Podemos ver que si ejecutamos los comandos sin el *sudo* nos muestra un node versión 10 el cual quedo como base de algunos paquetes en ubuntu y el npm no nos muestra resultaso, igualmente las ultimas versiones que salen con el comando *sudo node -v* y *sudo npm -v* son las que el sistema utilizara para el desarrollo.
