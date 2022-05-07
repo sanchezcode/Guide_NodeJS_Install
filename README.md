@@ -156,20 +156,52 @@ sudo apt-get install npm
 
 4 - Si nos fijamos en la pagina oficial de NodeJS nos encontramos con una version estable superior.
 
-![image](https://user-images.githubusercontent.com/54609399/164273932-8095104d-1457-450a-856f-05c8c98d5d80.png)
+![image](https://user-images.githubusercontent.com/54609399/167241237-cdff92b8-c391-40ff-9081-22dbf880edcc.png)
 
-para actualizar nuestra versión instalada realizaremos los siguientes pasos.
+5 - Para actualizar nuestra versión instalada realizaremos los siguientes pasos.
 
-3 - 
+Limpiamos cache de npm
+
 ```
 sudo npm cache clean -f
 ```
+
+![image](https://user-images.githubusercontent.com/54609399/167241302-0bf4ca46-a232-477d-821e-4e9ced483a6d.png)
+
+Se instala la ultima versión estable de NodeJs
+
 ```
 sudo npm install -g n
 ```
+
+![image](https://user-images.githubusercontent.com/54609399/167241339-2e0fc5d9-33b5-4c9f-a30b-e907dfabc4aa.png)
+
+Confirmamos la ultima versión estable de NodeJs
+
+```
+sudo n stable
+```
+
+![image](https://user-images.githubusercontent.com/54609399/167241425-12d59c21-2ee6-47eb-9165-6044786d8272.png)
+
+6 - Volvemos a verificar las versiones con los siguientes comandos:
+
+```
+sudo node -v
+```
+```
+sudo npm -v
+```
+
+
+
+
 ```
 sudo n latest
 ```
+
+
+
 ![image](https://user-images.githubusercontent.com/54609399/164275069-44b1349f-3ee8-458b-9b5c-81be3a88881c.png)
 
 o instalar la version estable LTS(recomendado)
@@ -189,7 +221,8 @@ sudo node -v
 ```
 sudo npm -v
 ```
-![image](https://user-images.githubusercontent.com/54609399/164278779-4c8e7f1a-34bd-48b8-9610-180ddd5001b8.png)
+
+![image](https://user-images.githubusercontent.com/54609399/167241652-54e6501f-055e-4e54-a683-23f8bd7c52f4.png)
 
 
 *** ACTUALIZAR ***
@@ -202,6 +235,9 @@ sudo npm -v
 ```
 sudo npm install npm@latest -g
 ```
+
+![image](https://user-images.githubusercontent.com/54609399/167241595-97d843c6-3234-4a4d-bd53-5969a21563a8.png)
+
 ```
 sudo npm -v
 ```
