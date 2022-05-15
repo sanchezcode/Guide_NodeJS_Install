@@ -16,13 +16,13 @@ por eso NodeJS se instala para permitirnos esto.
 
 2 - Descargamos la version LTS (Long Time Support) osea mas tiempo de soporte y menos errores que la otra la version mas reciente puede tener muchos errores
 
-![image](https://user-images.githubusercontent.com/54609399/137843471-ce56f2ab-f8f7-4323-be81-f88a436b561d.png)
+![image](https://user-images.githubusercontent.com/54609399/168495034-e454e288-7528-4cf6-a3a5-f20bcde717d8.png)
 
 3 - Instalamos el ejecutable
 
-![image](https://user-images.githubusercontent.com/54609399/137843618-9241b307-2dff-4ba5-bcf4-4b23a811d8e5.png)
+![image](https://user-images.githubusercontent.com/54609399/168495061-ac68ca8a-1c4d-4973-9153-9237dd950f37.png)
 
-4 - Procedemos con la instalación dando click en Next
+4 - Procedemos con la instalación dando click en Next (Puede que tarde un poco en aparecer habilitado el next)
 
 ![image](https://user-images.githubusercontent.com/54609399/137843653-3bfdfd22-a14e-43c6-bcdb-7a3f9eecb5bf.png)
 
@@ -57,24 +57,57 @@ damos click en install para iniciar el proceso
 
 Con esto ya tenemos instalado NodeJS en el equipo ahora nuestro PC lee JavaScript sin necesidad de un navegador
 
-9 - Abrimos una consola de comandos del sistema operativo y comprobamos si tiene node instalado con el comando node -v
+9 - Abrimos una consola de comandos del sistema operativo y comprobamos si tiene node instalado con el comando node -v o node --version para comprobar que si quedo instalado
 
-![image](https://user-images.githubusercontent.com/54609399/137844458-8e7ac170-f7d7-4e82-b3fa-52cad83f6c35.png)
+(Recomendado) comando abreviado
+```
+node -v
+```
+comando completo
+```
+node --version
+```
 
-Tambien podemos usar el comando node --version
+![image](https://user-images.githubusercontent.com/54609399/168495204-f8cc9731-45b3-4935-a794-f633344f8fe4.png)
 
-![image](https://user-images.githubusercontent.com/54609399/137844513-3599e25c-b98e-49b0-8190-7daeca13ec1d.png)
 
 El sistema operativo nos dice la version instalada de NodeJS
 
 10 - Comprobamos tambien el npm (Node Pakage Manager), administra todo lo que se vaya a instalar de JavaScript en el equipo
 como Angular React y otras librerias que instalaremos
 
-![image](https://user-images.githubusercontent.com/54609399/137844630-736958e2-27c1-42e4-b4c9-ba4931489a5c.png)
+(Recomendado) comando abreviado
+```
+npm -v
+```
+comando completo
+```
+npm --version
+```
 
-![image](https://user-images.githubusercontent.com/54609399/137844674-584d7843-b25b-44d5-a13f-7530359c5f1b.png)
+![image](https://user-images.githubusercontent.com/54609399/168495300-8ce8a1c0-9676-44a6-8bb0-b5eba6ad7c69.png)
 
-11 - Para saber si mongo esta instalado en el equipo vamos a probar si en verdad podemos ejecutar JavaScript sin necesidad del navegador
+NOTA: npm siempre suele instalarce en una version anterior a la estable para ello podmeos actualizarlo en la ultima versión de la siguiente manera
+
+- Abrimos la consola cmd en modo administrador y ejecutamos el siguiente comando
+
+```
+npm install -g npm-windows-upgrade
+```
+
+![image](https://user-images.githubusercontent.com/54609399/168495623-79625258-dd1a-4551-bfbc-43382f560c4d.png)
+
+luego ejecutamos el comando que nos indica en verte (el numero de la version se debe poner tal cual como salga en la linea de color verde):
+
+```
+npm install -g npm@8.10.0
+```
+
+![image](https://user-images.githubusercontent.com/54609399/168495752-b8c8c53b-918c-45a7-837e-8b8fb1260be1.png)
+
+y con esto ya tenemos la versión mas reciente de npm
+
+11 - Para saber si node esta instalado en el equipo vamos a probar si en verdad podemos ejecutar JavaScript sin necesidad del navegador
 
 primero creamos una carpeta en el escritorio llamada PruebaNode
 
@@ -120,6 +153,11 @@ esto ejecutara el archivo y lo que tenga escrito en el osea ejecuta el javascrip
 ![image](https://user-images.githubusercontent.com/54609399/138187236-8245c040-c84e-43ca-bef6-0f1437a1ee57.png)
 
 ![image](https://user-images.githubusercontent.com/54609399/138187324-09377d69-77f6-40df-ac53-926b7ed81c64.png)
+
+tambien lo podemos probar desde la consola del Visual Studio Code
+
+![image](https://user-images.githubusercontent.com/54609399/168495875-52a28d24-7701-4864-bd9b-1dd90632e476.png)
+
 
 Listo ya tenemos NodeJS listo en nuestro PC
 
@@ -254,3 +292,4 @@ sudo npm -v
 ```
 ![image](https://user-images.githubusercontent.com/54609399/167242932-456537dc-9043-48a9-ae4d-a4e4ee41d6ce.png)
 
+Ya tenemos todo instalado 
